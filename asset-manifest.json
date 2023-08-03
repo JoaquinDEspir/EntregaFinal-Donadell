@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/JoaquinDEspir/PrimeraPreEntrega-Donadell/static/css/main.73ccb154.css",
+    "main.js": "/JoaquinDEspir/PrimeraPreEntrega-Donadell/static/js/main.989abf70.js",
+    "index.html": "/JoaquinDEspir/PrimeraPreEntrega-Donadell/index.html",
+    "main.73ccb154.css.map": "/JoaquinDEspir/PrimeraPreEntrega-Donadell/static/css/main.73ccb154.css.map",
+    "main.989abf70.js.map": "/JoaquinDEspir/PrimeraPreEntrega-Donadell/static/js/main.989abf70.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73ccb154.css",
+    "static/js/main.989abf70.js"
+  ]
+}
