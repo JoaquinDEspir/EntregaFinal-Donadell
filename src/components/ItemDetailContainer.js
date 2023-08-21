@@ -5,7 +5,7 @@ import { useParams } from "react-router";
 
 const ItemDetailContainer = () => {
   const [product, setProduct] = useState(null);
-  const { itemId } = useParams(); // Cambia ItemId a itemId
+  const { itemId } = useParams(); 
 
   useEffect(() => {
     getProductById(itemId)

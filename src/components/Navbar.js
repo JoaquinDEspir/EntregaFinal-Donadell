@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 function Navbar() {
   return (
     <nav>
-      <NavLink to='/'> {/* Usa NavLink en lugar de link */}
+      <NavLink to='/'> 
         <h1>Emporio de anna</h1>
       </NavLink>
       <NavLink to='/category/espada'>Espadas</NavLink>
