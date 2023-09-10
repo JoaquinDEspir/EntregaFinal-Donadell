@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 const Item = ({ id, name, img, price, stock }) => {
   return (
-    <article className="CardItem">
+    <article className="card">
       <header className="Header">
         <h2 className="Itemheader">
           {name}

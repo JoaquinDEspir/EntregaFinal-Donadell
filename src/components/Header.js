@@ -5,7 +5,7 @@ import CartWidget from './CartWidget'
 function Header() {
   return (
     <>
-    <header class = "navegacion">
+    <header className = "navegacion">
             
             
         <Navbar/>

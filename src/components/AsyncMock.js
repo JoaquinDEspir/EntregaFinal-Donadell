@@ -4,7 +4,7 @@ const products = [
         name: 'espada de hierro',
         price: 300,
         category: 'espada',
-        img: 'https://cdn.fireemblemwiki.org/7/7e/FEWATH_Wo_Dao.png',
+        img: 'https://cdn.fireemblemwiki.org/8/82/FESK_Helswath.png',
         stock: 25,
         descripcion: 'una espada de hierro normal'
     },
