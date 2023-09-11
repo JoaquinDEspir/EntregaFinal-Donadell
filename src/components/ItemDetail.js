@@ -8,18 +8,22 @@ const ItemDetail = ({ id, name, img, category, descripcion, price, stock }) => {
   const { addToCart } = useCart(); // Usa useContext para acceder a CartContext
 
   const handleOnAdd = (quantity) => {
+    if (quantity > 0) {
     setQuantityAdded(quantity);
+    }
   };
 
   const handleBuyClick = () => {
-    
+    if (quantityAdded > 0) {
       const item = {
         id,
         name,
         price,
       };
+
       console.log("Botón de comprar presionado");
       addToCart(item, quantityAdded);
+    }
     
   };
 
@@ -40,7 +44,7 @@ const ItemDetail = ({ id, name, img, category, descripcion, price, stock }) => {
       <footer className='ItemFooter'>
 
           <>
-            <ItemCount initial={1} stock={stock} onAdd={handleOnAdd} />
+            <ItemCount initial={0} stock={stock} onAdd={handleOnAdd} />
             <button onClick={handleBuyClick} className='Button'>
               Comprar
             </button>

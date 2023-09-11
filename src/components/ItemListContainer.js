@@ -1,7 +1,7 @@
 
 // ItemListContainer.js
 import React, { useState, useEffect } from "react";
-import { getProducts, getProductsByCategory } from "./AsyncMock";
+
 import ItemList from "./ItemList";
 import { useParams } from "react-router";
 import {db} from "../firebase"

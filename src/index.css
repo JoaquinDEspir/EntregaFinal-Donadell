@@ -173,3 +173,19 @@ header.navegacion {
   margin: 5px;
   display: inline-block; /* Alinea el número en línea */
 }
+
+.Footer {
+  background-color: #64108F;
+  color: white;
+  text-align: left;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.Label {
+  display: block;
+  margin-bottom: 15px; /* Ajusta el espaciado vertical según tus preferencias */
+}

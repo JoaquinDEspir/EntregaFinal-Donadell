@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { getProductById } from "./AsyncMock";
 import ItemDetail from "./ItemDetail";
 import { useParams } from "react-router";
 import {getDoc, doc} from 'firebase/firestore';
@@ -27,16 +26,7 @@ const ItemDetailContainer = () => {
       })
       .finally(() =>{
         setLoading(false)
-      })
-
-    {/*getProductById(itemId)
-      .then((response) => {
-        setProduct(response);
-      })
-      .catch((error) => {
-        console.error(error);
-      });
-  }, */}},[itemId]);
+      })},[itemId]);
 
   return (
     <div className="ItemDetailContainer">
