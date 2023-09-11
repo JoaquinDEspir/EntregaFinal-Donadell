@@ -8,10 +8,7 @@ export const CartContextProvider = ({ children }) => {
   const addToCart = (item, quantity) => {
     if (!isInCart(item.id)) {
       setCart((prev) => [...prev, { ...item, quantity }]);
-      console.log("Carrito actual:", [...cart, { ...item, quantity }]); // Agrega este console.log
-    } else {
-      console.error("El producto ya se agregó al carrito");
-    }
+    } 
   };
 
   const removeFromCart = (itemId) => {

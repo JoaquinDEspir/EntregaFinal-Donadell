@@ -1,12 +1,11 @@
 import React, { useState, useContext } from 'react';
 import { Link } from 'react-router-dom';
-import { useCart, CartContextProvider, CartContext  } from '../context/CartContext'; // Importa CartContext correctamente
+import { useCart, CartContextProvider, CartContext  } from '../context/CartContext'; 
 import ItemCount from './ItemCount';
 
 const ItemDetail = ({ id, name, img, category, descripcion, price, stock }) => {
   const [quantityAdded, setQuantityAdded] = useState(0);
-  const { addToCart } = useCart(); // Usa useContext para acceder a CartContext
-
+  const { addToCart } = useCart(); 
   const handleOnAdd = (quantity) => {
     if (quantity > 0) {
     setQuantityAdded(quantity);
@@ -20,8 +19,6 @@ const ItemDetail = ({ id, name, img, category, descripcion, price, stock }) => {
         name,
         price,
       };
-
-      console.log("Botón de comprar presionado");
       addToCart(item, quantityAdded);
     }
     

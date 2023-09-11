@@ -21,9 +21,6 @@ const ItemDetailContainer = () => {
         const productosAdapted= {id: response.id, ...data}
         setProduct(productosAdapted)
       })
-      .catch(error =>{
-        console.log('error');
-      })
       .finally(() =>{
         setLoading(false)
       })},[itemId]);

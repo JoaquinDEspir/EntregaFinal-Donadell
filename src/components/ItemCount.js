@@ -5,14 +5,14 @@ const ItemCount = ({ stock, initial, onAdd, onCheckout }) => {
   const increment = () => {
     if (quantity < stock) {
       setQuantity(quantity + 1);
-      onAdd(quantity + 1); // Llama a onAdd con la nueva cantidad
+      onAdd(quantity + 1); 
     }
   };
   
   const decrement = () => {
     if (quantity > 1) {
       setQuantity(quantity - 1);
-      onAdd(quantity - 1); // Llama a onAdd con la nueva cantidad
+      onAdd(quantity - 1);
     }
   };
   

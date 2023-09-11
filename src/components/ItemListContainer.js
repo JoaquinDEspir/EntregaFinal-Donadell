@@ -1,5 +1,4 @@
 
-// ItemListContainer.js
 import React, { useState, useEffect } from "react";
 
 import ItemList from "./ItemList";
@@ -26,26 +25,9 @@ const ItemListContainer = ({ greeting }) => {
           })
           setProducts(productosAdapted)
         })
-        .catch(error =>{
-          console.log('error');
-        })
         .finally(()=>{
           setLoading(false)
         })
-
-    {/*const productosCollection = collection(db, "produtos");
-    const laconsulta = getDocs(productosCollection);
-    console.log(laconsulta);
-
-    const asyncFunc = categoryId ? getProductsByCategory : getProducts;
-
-    asyncFunc(categoryId)
-      .then((response) => {
-        setProducts(response);
-      })
-      .catch((error) => {
-        console.error(error);
-      });*/}
   }, [categoryId]);
 
   return (

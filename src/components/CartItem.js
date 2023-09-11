@@ -2,7 +2,7 @@ import React from "react";
 import { useCart } from "../context/CartContext";
 
 const CartItem = ({ id, name, img, price, quantity }) => {
-  const { updateCartItemQuantity, removeItemFromCart } = useCart(); // Llama a useCart como función
+  const { updateCartItemQuantity, removeItemFromCart } = useCart(); 
 
   const handleIncreaseQuantity = () => {
     updateCartItemQuantity(id, quantity + 1);

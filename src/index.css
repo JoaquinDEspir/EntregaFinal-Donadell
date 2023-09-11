@@ -27,117 +27,108 @@ header.navegacion {
     display: inline-block;
   }
   .nav-link:first-child {
-    margin-right: 40px; /* Ajusta el margen derecho según sea necesario */
+    margin-right: 40px;
   }
   .card {
-    border: 1px solid #ccc; /* Borde de la tarjeta */
-    padding: 10px; /* Espaciado interior de la tarjeta */
-    width: calc(33.33% - 20px); /* Ancho para mostrar tres tarjetas en la misma línea */
-    margin: 10px; /* Margen exterior de la tarjeta, ajusta según tus preferencias */
-    display: flex; /* Utiliza flexbox para alinear las tarjetas en una fila */
-    flex-direction: column; /* Apila elementos verticalmente dentro de la tarjeta */
-    align-items: center; /* Centra los elementos horizontalmente dentro de la tarjeta */
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    width: calc(33.33% - 20px); 
+    margin: 10px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
   }
   
-  /* Estilo para la imagen dentro de la tarjeta */
   .card img {
-    width: 100%; /* Establece el ancho de la imagen al 100% del contenedor (tarjeta) */
-    height: auto; /* La altura se ajustará automáticamente según el ancho */
-    max-height: 200px; /* Establece una altura máxima para las imágenes, ajusta según tus preferencias */
+    width: 100%;
+    height: auto;
+    max-height: 200px; 
   }
   .card-container {
     display: flex;
-    flex-wrap: wrap; /* Permite que las tarjetas se envuelvan cuando no quepan en una línea */
-    justify-content: space-between; /* Distribuye el espacio horizontalmente entre las tarjetas */
+    flex-wrap: wrap; 
+    justify-content: space-between; 
   }
 
-/* Estilo para el botón "Ver detalle" */
+
 .card .Option {
-  background-color: #4CAF50; /* Fondo verde */
-  color: white; /* Texto blanco */
-  border: 1px solid #4CAF50; /* Borde verde */
-  padding: 10px 20px; /* Espaciado interior del botón */
-  text-align: center; /* Centra el texto horizontalmente en el botón */
-  text-decoration: none; /* Elimina la decoración de texto predeterminada */
-  display: inline-block; /* Hace que el botón se comporte como un elemento en línea */
-  border-radius: 4px; /* Borde redondeado */
-  transition: background-color 0.3s ease; /* Transición de color de fondo suave */
+  background-color: #4CAF50; 
+  color: white; 
+  border: 1px solid #4CAF50; 
+  padding: 10px 20px; 
+  text-align: center; 
+  text-decoration: none; 
+  display: inline-block; 
+  border-radius: 4px; 
+  transition: background-color 0.3s ease; 
 }
 
-/* Estilo para el botón "Ver detalle" al pasar el mouse por encima */
 .card .Option:hover {
-  background-color: #45a049; /* Cambia el color de fondo al pasar el mouse por encima */
-  border: 1px solid #45a049; /* Cambia el color del borde al pasar el mouse por encima */
+  background-color: #45a049; 
+  border: 1px solid #45a049; 
 }
 
 
 
 
 .CardItem {
-  border: 1px solid #ccc; /* Borde de la tarjeta */
-  padding: 20px; /* Espaciado interior de la tarjeta */
-  width: 300px; /* Ancho de la tarjeta */
-  margin: 0 auto; /* Centra la tarjeta horizontalmente en el contenedor */
-  text-align: center; /* Centra el texto horizontalmente en la tarjeta */
-  background-color: #f0f0f0; /* Color de fondo de la tarjeta */
+  border: 1px solid #ccc; 
+  padding: 20px; 
+  width: 300px;
+  margin: 0 auto; 
+  text-align: center; 
+  background-color: #f0f0f0; 
 }
 
-/* Estilo para la imagen dentro de la tarjeta */
+
 .CardItem img {
-  width: 100%; /* Establece el ancho de la imagen al 100% del contenedor (tarjeta) */
-  max-height: 200px; /* Establece una altura máxima para las imágenes, ajusta según tus preferencias */
-  object-fit: cover; /* Escala y recorta la imagen para que se ajuste a las dimensiones del contenedor */
+  width: 100%; 
+  max-height: 200px; 
+  object-fit: cover; 
 }
 
-/* Estilo para el botón "Terminar compra" */
+
 .CardItem .Option {
-  background-color: #4CAF50; /* Fondo verde */
-  color: white; /* Texto blanco */
-  border: 1px solid #4CAF50; /* Borde verde */
-  padding: 10px 20px; /* Espaciado interior del botón */
-  text-align: center; /* Centra el texto horizontalmente en el botón */
-  text-decoration: none; /* Elimina la decoración de texto predeterminada */
-  display: inline-block; /* Hace que el botón se comporte como un elemento en línea */
-  border-radius: 4px; /* Borde redondeado */
-  transition: background-color 0.3s ease; /* Transición de color de fondo suave */
+  background-color: #4CAF50; 
+  color: white; 
+  border: 1px solid #4CAF50; 
+  padding: 10px 20px; 
+  text-align: center; 
+  text-decoration: none; 
+  display: inline-block;
+  border-radius: 4px; 
+  transition: background-color 0.3s ease; 
   margin-top: 10px; 
 }
 
 
-/* styles.css */
 
-/* Estilo para el componente ItemCount */
 .Counter {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* Estilo para los botones */
 .Button {
-  background-color: #2196F3; /* Azul */
-  color: white; /* Texto blanco */
+  background-color: #2196F3;
+  color: white; 
   border: none;
-  padding: 5px 10px; /* Espaciado interior de los botones */
-  margin: 0 5px; /* Espaciado horizontal entre los botones y el número */
-  cursor: pointer; /* Cambia el cursor al pasar sobre los botones */
-  border-radius: 4px; /* Borde redondeado */
-  transition: background-color 0.3s ease; /* Transición de color de fondo suave */
-}
+  padding: 5px 10px; 
+  margin: 0 5px; 
+  cursor: pointer; 
+  border-radius: 4px;
+  transition: background-color 0.3s ease; }
 
-/* Estilo para el número */
+
 .Number {
-  font-size: 18px; /* Tamaño de fuente del número */
-  margin: 0 5px; /* Espaciado horizontal entre el número y los botones */
+  font-size: 18px; 
+  margin: 0 5px; 
 }
 
-/* Cambia el color de fondo de los botones al pasar el mouse sobre ellos */
 .Button:hover {
-  background-color: #0E79B2; /* Azul más oscuro */
+  background-color: #0E79B2; 
 }
-/* styles.css */
 
-/* Estilo para el componente ItemDetail */
 .CardItem {
   display: flex;
   flex-direction: column;
@@ -146,15 +137,14 @@ header.navegacion {
   text-align: center;
 }
 
-/* Estilo para el botón y el número en la tarjeta */
+
 .ItemFooter {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap; /* Permite que los elementos se envuelvan cuando no haya suficiente espacio */
+  flex-wrap: wrap; 
 }
 
-/* Estilo para los botones */
 .Option {
   background-color: #2196F3;
   color: white;
@@ -164,14 +154,13 @@ header.navegacion {
   cursor: pointer;
   border-radius: 4px;
   transition: background-color 0.3s ease;
-  display: inline-block; /* Alinea los botones en línea */
+  display: inline-block;
 }
 
-/* Estilo para el número */
 .Number {
   font-size: 18px;
   margin: 5px;
-  display: inline-block; /* Alinea el número en línea */
+  display: inline-block; 
 }
 
 .Footer {
@@ -187,5 +176,5 @@ header.navegacion {
 
 .Label {
   display: block;
-  margin-bottom: 15px; /* Ajusta el espaciado vertical según tus preferencias */
+  margin-bottom: 15px; 
 }

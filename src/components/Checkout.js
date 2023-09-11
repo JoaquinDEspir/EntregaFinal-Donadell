@@ -2,8 +2,7 @@ import React, { useContext, useState } from 'react';
 import { db } from '../firebase';
 import { CartContext } from '../context/CartContext';
 import { Timestamp, collection, query, where, getDocs, documentId, addDoc, writeBatch } from 'firebase/firestore';
-import CheckoutForm from './CheckoutForm'; // Asegúrate de importar CheckoutForm si aún no lo has hecho
-
+import CheckoutForm from './CheckoutForm';
 const Checkout = () => {
   const [loading, setLoading] = useState(false);
   const [orderId, setOrderId] = useState('');
